@@ -1,0 +1,41 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/developer"
+        android:orientation="vertical"
+        tools:context="com.bookapp.MainActivity"
+        >
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="209dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="265dp"
+            android:background="@drawable/shapes"
+            android:gravity="center"
+            tools:text="Google"
+            android:inputType=""/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="226dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/sahpes_two"
+            android:gravity="center"
+            android:text="@string/search"
+            tools:text="Search Book"/>
+
+    </LinearLayout>
+
+</ScrollView>

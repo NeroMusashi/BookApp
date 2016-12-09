@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BookApp</string>
+    <string name="search">Search Book</string>
+    <string name="List_view_is_empty">Empty</string>
+</resources>
